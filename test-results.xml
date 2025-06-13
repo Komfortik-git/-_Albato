@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.271" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-06-12T19:58:24" tests="0" file="cypress\e2e\sort.spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Тест сортировки товаров по возрастанию цены" timestamp="2025-06-12T19:58:24" tests="1" time="1.270" failures="0">
+    <testcase name="Тест сортировки товаров по возрастанию цены Пользователь сортирует товары по минимальной цене" time="1.233" classname="Пользователь сортирует товары по минимальной цене">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,24 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "My-project Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cypress run",
+    "build": "babel src -d dist"
+  },
+  "author": "Alexandr",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.4.1",
+    "cypress-multi-reporters": "^2.0.5"
+  },
+  "dependencies": {
+    "junit-reporter": "^0.0.2",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
